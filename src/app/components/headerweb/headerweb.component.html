@@ -1,0 +1,84 @@
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="logo">
+            <a href="/home/" class="nav-link">
+                <i class="fas fa-angle-double-right"></i>
+                <span class="link-text">INICIO</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a href="/cursos/" class="nav-link">
+                <i class="fas fa-book"></i>
+                <span class="link-text">CURSOS</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="link-text">CARRO</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fas fa-bookmark"></i>
+                <span class="link-text">MIS CURSOS</span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a href="#" class="nav-link">
+                <i class="fas fa-cog"></i>
+                <span class="link-text">AJUSTES</span>
+            </a>
+        </li>
+
+        <li class="nav-item" id="abrirpopuplogin">
+            <a href="#" class="nav-link">
+                <i class="fas fa-user"></i>
+                <span class="link-text">PERFIL</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class="popupoverlay" id="overlaylog">
+    <div class="login" id="popuplogin">
+        <a href="#" id="closepopuplog" class="cerrarpopup">
+            <i class="fas fa-times"></i>
+        </a>
+        <hr>
+        <div class="popupflex">
+            <div id="contenedorlog" class="contenedor-login">
+                <h3>¡BIENVENIDO DE NUEVO!</h3>
+                <form action="">
+                    <div class="contenedor-inputs">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <a href="#" id="notregisted" class="abrirregister">
+                            ¿Aún no estas registrado? Unete ya!
+                        </a>
+                    </div>
+                    <input type="submit" class="btn-login" value="ENTRAR">
+                </form>
+            </div>
+            <div id="contenedorreg" class="contenedor-register">
+                <h3>¡REGISTRATE!</h3>
+                <form action="">
+                    <div class="contenedor-inputs">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellidos">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <input type="text" placeholder="Email">
+                        <a href="#" id="registed" class="abrirregister">
+                            ¿Ya estás registrado? Logeate!
+                        </a>
+                    </div>
+                    <input type="submit" class="btn-register" value="REGISRARME">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,13 +1,43 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>ArrovaAcademia</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <title>ArrovaAcademia</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="BOX_DEVNAME">
+    <link rel="icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
+
 <body>
-  <app-root></app-root>
+    <app-root></app-root>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyABj6cTJVBTBJxK4e6AaA5AZmAeLTNqG3w",
+            authDomain: "arrovacademia.firebaseapp.com",
+            databaseURL: "https://arrovacademia.firebaseio.com",
+            projectId: "arrovacademia",
+            storageBucket: "arrovacademia.appspot.com",
+            messagingSenderId: "690549895488",
+            appId: "1:690549895488:web:a5c3a3805f624ee1c24aa5",
+            measurementId: "G-Y0KTD8794E"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,111 @@
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+    z-index: 0;
+}
+
+.titulo-catalogo h1 {
+    filter: grayscale(100%) opacity(0.7);
+}
+
+.titulo-catalogo hr {
+    color: var(--bg-primary);
+}
+
+.menu-catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.opcion-navegador {
+    background-color: var(--bg-primary);
+    padding: 2%;
+    width: 30%;
+    border: 2px solid var(--text-fourth);
+    border-radius: 1rem;
+}
+
+.opcion-valenciano-izq {
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-valenciano-izq:hover {
+    font-weight: bold;
+}
+
+.opcion-valenciano-der {
+    margin-left: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-valenciano-der:hover {
+    font-weight: bold;
+}
+
+.opcion-eso-izq {
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-eso-izq:hover {
+    font-weight: bold;
+}
+
+.opcion-eso-der {
+    margin-right: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-eso-der:hover {
+    font-weight: bold;
+}
+
+.opcion-bachillerato {
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-bachillerato:hover {
+    font-weight: bold;
+}
+
+.opcion-bachillerato-medio {
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-bachillerato-medio:hover {
+    font-weight: bold;
+}
+
+.opcion-accesos {
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-accesos:hover {
+    font-weight: bold;
+}
+
+.opcion-accesos-medio {
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    color: var(--text-fourth);
+}
+
+.opcion-accesos-medio:hover {
+    font-weight: bold;
+}
